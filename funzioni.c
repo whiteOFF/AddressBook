@@ -26,7 +26,7 @@ Contatto *newContatto0() { return newContatto(NULL, NULL, NULL, NULL, NULL, NULL
 
 void newContattoC(Contatto* x, char* stringa) {
     puts(stringa);
-    printf("%s ", "Nome:");scanf("%s", x->dati.nome);
+    printf("%s ", "Nome:"); scanf("%s", x->dati.nome);
     printf("%s ", "Cognome:"); scanf("%s", x->dati.cognome);
     printf("%s ", "Telefono:"); scanf("%u", &(x->dati.num));
     printf("%s ", "Citta':"); scanf("%s", x->casa.citta);
